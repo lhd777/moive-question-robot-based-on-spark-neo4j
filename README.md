@@ -1,6 +1,10 @@
 ## moive-question-robot-based-on-spark-neo4j
 
-配置环境: 
+### version1 moive-robot
+
+we use the pyspark framework to bulid our robot.
+
+**配置环境:** 
 
 pyspark 2.4.4
 
@@ -8,17 +12,25 @@ py4j 0.10.7
 
 Neo4j 1.2.3
 
-configuration environment:
+**configuration environment:**
 
 pyspark 2.4.4
 
 py4j 0.10.7
+
+Neo4j 1.2.3
+
+### version2 moive-robot-spark-self
+
+In this part, **we reproduce the spark by fully python**. So we do not need to have pyspark. But this spark by fully python is not distribute. It can only run on a single node. If you want to know that we how to build a distribute spark on our dfs(distribute file system), just git my another repository.
+
+**configuration environment:**
 
 Neo4j 1.2.3
 
 ## supplement
 
-In the another repository, we also build a spark framework with python. So we also deploy our work on our spark framework. If you are interested in this part, you can git anonther repository and reproduce our work.
+The model have already been trained. We have already upload the parameter. If you want to retrain the model, just check the code which show the train process.
 
 ## sample
 
