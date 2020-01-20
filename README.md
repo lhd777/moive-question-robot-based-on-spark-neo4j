@@ -4,7 +4,8 @@
 
 we use the pyspark framework to bulid our robot.
 
-**配置环境:** 
+**配置环境：** 
+python 3.7
 
 pyspark 2.4.4
 
@@ -13,6 +14,7 @@ py4j 0.10.7
 Neo4j 1.2.3
 
 **configuration environment:**
+python 3.7
 
 pyspark 2.4.4
 
